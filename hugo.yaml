@@ -46,6 +46,7 @@ params:
     logo:
       #path: images/sunflower-pumpkin.svg
       path: images/fall-leaves.svg
+      dark: images/fall-leaves.svg
 
   footer:
     displayCopyright: false
