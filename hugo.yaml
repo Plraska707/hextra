@@ -18,8 +18,8 @@ markup:
 
 menu:
   main:
-    - name: QR-CODE
-      pageRef: /qr_code
+    - name: Codice-QR
+      pageRef: /qr-code
       weight: 1
     - name: Contact ↗
       url: "mailto:marcelliattilio@gmail.com"
@@ -44,9 +44,9 @@ params:
     displayTitle: true
     displayLogo: true 
     logo:
-      #path: images/sunflower-pumpkin.svg
-      path: images/fall-leaves.svg
-      dark: images/fall-leaves.svg
+      #path: images/fall-leaves.svg
+      path: images/logo.svg
+      dark: images/logo-dark.svg
 
   footer:
     displayCopyright: false
