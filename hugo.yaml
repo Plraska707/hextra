@@ -1,0 +1,56 @@
+# Hugo configuration file
+title: Wiki di Attilio 
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: QR-CODE
+      pageRef: /qr_code
+      weight: 1
+    - name: Contact ↗
+      url: "mailto:marcelliattilio@gmail.com"
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/Plraska707"
+      params:
+        icon: github
+    - name: Instagram
+      weight: 5
+      url: "https://www.instagram.com/plraska_707/"
+      params:
+        icon: instagram
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true 
+    logo:
+      #path: images/sunflower-pumpkin.svg
+      path: images/fall-leaves.svg
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/Plraska707/hextra"
