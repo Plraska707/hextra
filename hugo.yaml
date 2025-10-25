@@ -44,8 +44,8 @@ params:
     displayTitle: true
     displayLogo: true 
     logo:
-      path: images/dino.png
-      dark: images/dino.png
+      path: dino.png
+      dark: dino.png
       #path: images/logo.svg
       #dark: images/logo-dark.svg
 
