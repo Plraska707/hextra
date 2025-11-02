@@ -1,5 +1,5 @@
 ---
-title: Codice QR
+title: Codici QR
 #type: blog
 weight: 
 ---
@@ -13,5 +13,8 @@ Questo è il codice QR della homepage di questa wiki
 
 Questo è il codice QR per collegarsi al wifi di casa
 
-![QR code Wi-Fi](qrcode-wifi.png)
+![QR code Wi-Fi](codici_qr/qr-code-wifi.png)
 
+## Codice segreto
+
+![QR code segreto](codici_qr/qr-code-gorilla.png)
