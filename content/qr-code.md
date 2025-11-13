@@ -7,7 +7,7 @@ weight:
 ## Homepage
 Questo è il codice QR della homepage di questa wiki
 
-![QR code](qr-code-wiki.png)
+![QR code](codici_qr/qr-code-wiki.png)
 
 ## Wi-fi
 
