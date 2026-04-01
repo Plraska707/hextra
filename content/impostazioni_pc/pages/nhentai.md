@@ -1,5 +1,5 @@
 ---
-title: Nhentai
+title: Gatcha
 type: docs
 weight: 3
 ---
