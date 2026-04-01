@@ -15,3 +15,4 @@ weight: 2
 [Tagliare Video](pages/tagliare_video)  
 [Aggiungere cartella SMB a Jellyfin](pages/aggiungere_smb_jellyfin)
 [ISO su USB](pages/ISO_su_USB)
+[Comandi FFMPEG](pages/comandi_ffmpeg.md)
