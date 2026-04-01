@@ -4,9 +4,9 @@ type: docs
 weight: 3
 ---
 
-Per accedere a Jellyfin, collegarsi al server:
+Per accedere a Jellyfin, collegarsi al localhost, porta 8096:
 
-[http://192.168.1.188:8096](http://192.168.1.187:8096)
+[Esempio](http://192.168.1.103:8096)
 
 Credenziali:
 - Username: `plraska`
