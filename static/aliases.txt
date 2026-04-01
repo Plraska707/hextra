@@ -1,0 +1,39 @@
+alias la='ls -Ah'
+alias l='ls -ltrh'
+alias ll='ls -lh'
+alias youtube='ytfzf'
+alias py='python3.12'
+alias hdd='sudo mount /dev/sda1 /media/plraska/'
+alias puntata='py /home/plraska/Desktop/Programmazione/varie/script_uni/puntata_telefilm.py'
+alias raspberry='ssh pi4@192.168.1.61'
+alias update='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y'
+alias saldo='du -hsc $@* | sort -h'
+dusub() {
+    local dir=${1:-.}
+    du -hsc "$dir"* | sort -h
+}
+alias nhentai='docker run --rm -it -v /home/plraska/Desktop/Attilio/Gatcha/doujinshi:/output -v ~/.nhentai/:/root/.nhentai nhentai'
+alias douroot='sudo chmod -R 777 /home/plraska/Desktop/Attilio/Gatcha/doujinshi/'
+alias dockerps='docker ps --format '\''table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}'\'''
+alias dockerpsa='docker ps -a --format '\''table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}'\'''
+alias podmanps='podman ps --format '\''table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}'\'''
+alias podmanpsa='podman ps -a --format '\''table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}'\'''
+alias containers='dockerps && podmanps'
+alias containersa='dockerpsa && podmanpsa'
+alias animesaturn='./animesaturnDownloaderGo/bin/animesaturn-downloader-0.2.0-linux'
+nhfunction() {
+nhentai --id "$1"
+douroot
+cd /home/plraska/Desktop/Attilio/Gatcha/doujinshi
+py convert_2_pdf.py
+}
+wiki(){
+cd /home/plraska/hugo/mywiki
+hugo server
+}
+alias myip="ifconfig wlo1 | grep 'inet ' | awk '{print \$2}'"
+alias log-out="gnome-session-quit"
+alias hdd="sudo mount -t ntfs-3g -o remove_hiberfile /dev/sda1 /media/plraska/"
+alias qBittorrent="docker start qbittorrent"
+alias postgres="psql -h localhost -p 5432 -U plraska -d db_bilanci"
+alias venv="source /home/plraska/Desktop/Attilio/Programmi/.venv/bin/activate"
