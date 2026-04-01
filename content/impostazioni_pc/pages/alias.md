@@ -7,6 +7,7 @@ weight: 2
 File .aliases su cui salvo tutti gli alias attualmente in uso:
 
 [File Alias](/static/aliases.txt)
+[File Alias](/static/aliases)
 <!--
 >
 alias containers='dockerps && podmanps'  
