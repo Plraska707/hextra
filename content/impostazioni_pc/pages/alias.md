@@ -4,6 +4,10 @@ type: docs
 weight: 2
 ---
 
+File .aliases su cui salvo tutti gli alias attualmente in uso:
+
+[File Alias](/home/plraska/.aliases)
+<!--
 >
 alias containers='dockerps && podmanps'  
 alias containersa='dockerpsa && podmanpsa'  
@@ -43,3 +47,4 @@ hugo server
 }
 
 >
+-->
